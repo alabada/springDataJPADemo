@@ -1,7 +1,6 @@
 package com.ima.dao;
 
-interface JedisClient {
-
+public interface JedisClient {
     String get(String key);
     String set(String key,String value);
     String hget(String hkey, String key);

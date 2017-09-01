@@ -7,11 +7,15 @@ import java.util.Date;
 @Table(name = "i_dou_change")
 public class IDouChange {
     private Long id;
+
     //积分变化的类型，拉黑或者在线或者充值
     private String changeType;
+
     private Date createTime;
+
     //积分变化数
     private Integer iDouCount;
+
     //积分变化者
     private User user;
 

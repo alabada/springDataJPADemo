@@ -2,10 +2,13 @@ package com.ima.dto;
 
 
 public class DTO {
+
     //状态码，1代表成功，-1代表异常
     public String code = "1";
+
     //成功或者异常信息
     public String msg = "success";
+
     //数据体
     public Object data;
 
